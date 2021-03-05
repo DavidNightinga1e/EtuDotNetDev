@@ -42,6 +42,7 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="BinaryTreeTests.cs" />
         <Compile Include="LinkedListTests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
