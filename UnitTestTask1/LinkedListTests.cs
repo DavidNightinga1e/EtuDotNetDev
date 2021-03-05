@@ -30,7 +30,7 @@ namespace UnitTestTask1
         {
             var input = new[] {1, 2, 75, 69};
             var test = new[] {1, 2, 69};
-            var toRemove = 75;
+            const int toRemove = 75;
 
             var list = new LinkedList<int>();
             foreach (var i in input)
