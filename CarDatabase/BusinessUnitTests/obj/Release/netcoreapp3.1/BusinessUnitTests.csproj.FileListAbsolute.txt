@@ -1,0 +1,3 @@
+D:\Projects\EtuDotNetDev\CarDatabase\BusinessUnitTests\obj\Release\netcoreapp3.1\BusinessUnitTests.csprojAssemblyReference.cache
+D:\Projects\EtuDotNetDev\CarDatabase\BusinessUnitTests\obj\Release\netcoreapp3.1\BusinessUnitTests.AssemblyInfoInputs.cache
+D:\Projects\EtuDotNetDev\CarDatabase\BusinessUnitTests\obj\Release\netcoreapp3.1\BusinessUnitTests.AssemblyInfo.cs
