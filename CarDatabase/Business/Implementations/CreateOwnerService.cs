@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using CarDatabase.Business.Contracts;
 using CarDatabase.DataAccess.Contracts;
 using CarDatabase.Domain;
@@ -14,10 +15,15 @@ namespace CarDatabase.Business.Implementations
         {
             OwnerDataAccess = ownerDataAccess;
         }
-        
-        public Task<Owner> CreateOwner(OwnerUpdateModel ownerUpdateModel)
+
+        public async Task<Owner> CreateOwner(OwnerUpdateModel ownerUpdateModel)
         {
-            return OwnerDataAccess.CreateOwner(ownerUpdateModel);
+            var existingOwner = await OwnerDataAccess.GetOwner(ownerUpdateModel);
+
+            if (existingOwner != null)
+                throw new ArgumentException("Owner with such ownerId already exists");
+
+            return await OwnerDataAccess.CreateOwner(ownerUpdateModel);
         }
     }
 }

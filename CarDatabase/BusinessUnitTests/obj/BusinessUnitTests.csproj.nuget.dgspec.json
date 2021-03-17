@@ -26,7 +26,17 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Projects\\EtuDotNetDev\\CarDatabase\\Business\\Business.csproj": {
+                "projectPath": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\Business\\Business.csproj"
+              },
+              "D:\\Projects\\EtuDotNetDev\\CarDatabase\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\DataAccess\\DataAccess.csproj"
+              },
+              "D:\\Projects\\EtuDotNetDev\\CarDatabase\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -41,6 +51,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.4.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
@@ -66,7 +80,174 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\EtuDotNetDev\\CarDatabase\\Business\\Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\Business\\Business.csproj",
+        "projectName": "Business",
+        "projectPath": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\hans\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hans\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Projects\\EtuDotNetDev\\CarDatabase\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\DataAccess\\DataAccess.csproj"
+              },
+              "D:\\Projects\\EtuDotNetDev\\CarDatabase\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\EtuDotNetDev\\CarDatabase\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\hans\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hans\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Projects\\EtuDotNetDev\\CarDatabase\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\EtuDotNetDev\\CarDatabase\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\hans\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hans\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

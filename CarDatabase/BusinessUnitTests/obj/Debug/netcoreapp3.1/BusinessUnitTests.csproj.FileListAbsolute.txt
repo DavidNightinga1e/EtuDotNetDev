@@ -94,3 +94,11 @@ D:\Projects\EtuDotNetDev\CarDatabase\BusinessUnitTests\bin\Debug\netcoreapp3.1\z
 D:\Projects\EtuDotNetDev\CarDatabase\BusinessUnitTests\obj\Debug\netcoreapp3.1\BusinessUnitTests.csproj.CopyComplete
 D:\Projects\EtuDotNetDev\CarDatabase\BusinessUnitTests\obj\Debug\netcoreapp3.1\BusinessUnitTests.dll
 D:\Projects\EtuDotNetDev\CarDatabase\BusinessUnitTests\obj\Debug\netcoreapp3.1\BusinessUnitTests.pdb
+D:\Projects\EtuDotNetDev\CarDatabase\BusinessUnitTests\obj\Debug\netcoreapp3.1\BusinessUnitTests.csproj.CoreCompileInputs.cache
+D:\Projects\EtuDotNetDev\CarDatabase\BusinessUnitTests\bin\Debug\netcoreapp3.1\Business.dll
+D:\Projects\EtuDotNetDev\CarDatabase\BusinessUnitTests\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\Projects\EtuDotNetDev\CarDatabase\BusinessUnitTests\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Projects\EtuDotNetDev\CarDatabase\BusinessUnitTests\bin\Debug\netcoreapp3.1\Business.pdb
+D:\Projects\EtuDotNetDev\CarDatabase\BusinessUnitTests\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\Projects\EtuDotNetDev\CarDatabase\BusinessUnitTests\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Projects\EtuDotNetDev\CarDatabase\BusinessUnitTests\obj\Debug\netcoreapp3.1\BusinessUnitTests.genruntimeconfig.cache

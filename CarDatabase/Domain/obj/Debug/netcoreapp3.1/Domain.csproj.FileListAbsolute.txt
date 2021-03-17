@@ -1,0 +1,9 @@
+D:\Projects\EtuDotNetDev\CarDatabase\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+D:\Projects\EtuDotNetDev\CarDatabase\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Projects\EtuDotNetDev\CarDatabase\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Projects\EtuDotNetDev\CarDatabase\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+D:\Projects\EtuDotNetDev\CarDatabase\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+D:\Projects\EtuDotNetDev\CarDatabase\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+D:\Projects\EtuDotNetDev\CarDatabase\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+D:\Projects\EtuDotNetDev\CarDatabase\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+D:\Projects\EtuDotNetDev\CarDatabase\Domain\obj\Debug\netcoreapp3.1\Domain.pdb

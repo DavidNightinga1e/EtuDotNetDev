@@ -1,0 +1,14 @@
+D:\Projects\EtuDotNetDev\CarDatabase\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+D:\Projects\EtuDotNetDev\CarDatabase\Business\bin\Debug\netcoreapp3.1\Business.dll
+D:\Projects\EtuDotNetDev\CarDatabase\Business\bin\Debug\netcoreapp3.1\Business.pdb
+D:\Projects\EtuDotNetDev\CarDatabase\Business\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\Projects\EtuDotNetDev\CarDatabase\Business\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Projects\EtuDotNetDev\CarDatabase\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\Projects\EtuDotNetDev\CarDatabase\Business\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Projects\EtuDotNetDev\CarDatabase\Business\obj\Debug\netcoreapp3.1\Business.csprojAssemblyReference.cache
+D:\Projects\EtuDotNetDev\CarDatabase\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+D:\Projects\EtuDotNetDev\CarDatabase\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+D:\Projects\EtuDotNetDev\CarDatabase\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+D:\Projects\EtuDotNetDev\CarDatabase\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+D:\Projects\EtuDotNetDev\CarDatabase\Business\obj\Debug\netcoreapp3.1\Business.dll
+D:\Projects\EtuDotNetDev\CarDatabase\Business\obj\Debug\netcoreapp3.1\Business.pdb

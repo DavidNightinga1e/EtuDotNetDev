@@ -8,7 +8,6 @@ namespace CarDatabase.DataAccess.Contracts
     public interface ICarDataAccess
     {
         Task<Car> GetCar(ICarId carId);
-        Task<Car> UpdateCar(CarUpdateModel carUpdateModel);
         Task<Car> CreateCar(CarUpdateModel carUpdateModel);
     }
 }

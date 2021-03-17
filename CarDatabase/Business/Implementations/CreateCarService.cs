@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using CarDatabase.Business.Contracts;
 using CarDatabase.DataAccess.Contracts;
 using CarDatabase.Domain;
@@ -12,12 +13,17 @@ namespace CarDatabase.Business.Implementations
 
         public CreateCarService(ICarDataAccess carDataAccess)
         {
-            carDataAccess = carDataAccess;
+            CarDataAccess = carDataAccess;
         }
 
-        public Task<Car> CreateCar(CarUpdateModel carUpdateModel)
+        public async Task<Car> CreateCar(CarUpdateModel carUpdateModel)
         {
-            return CarDataAccess.CreateCar(carUpdateModel);
+            var existingCar = await CarDataAccess.GetCar(carUpdateModel);
+            
+            if (existingCar != null)
+                throw new ArgumentException("Car with such carId already exists");
+            
+            return await CarDataAccess.CreateCar(carUpdateModel);
         }
     }
 }

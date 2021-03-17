@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using CarDatabase.Business.Contracts;
 using CarDatabase.DataAccess.Contracts;
 using CarDatabase.Domain;
@@ -12,12 +13,20 @@ namespace CarDatabase.Business.Implementations
 
         public GetCarService(ICarDataAccess carDataAccess)
         {
-            carDataAccess = carDataAccess;
+            CarDataAccess = carDataAccess;
         }
 
-        public Task<Car> GetCar(ICarId carId)
+        public async Task<Car> GetCar(ICarId carId)
         {
-            return CarDataAccess.GetCar(carId);
+            if (carId == null)
+                throw new ArgumentNullException(nameof(carId));
+            
+            var result = await CarDataAccess.GetCar(carId);
+            
+            if (result == null)
+                throw new InvalidOperationException($"No such car with {nameof(carId)} equal {carId}");
+            
+            return result;
         }
     }
 }

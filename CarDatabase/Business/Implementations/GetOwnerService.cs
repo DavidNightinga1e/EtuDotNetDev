@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using CarDatabase.Business.Contracts;
 using CarDatabase.DataAccess.Contracts;
 using CarDatabase.Domain;
@@ -15,9 +16,17 @@ namespace CarDatabase.Business.Implementations
             OwnerDataAccess = ownerDataAccess;
         }
 
-        public Task<Owner> GetOwner(IOwnerId ownerId)
+        public async Task<Owner> GetOwner(IOwnerId ownerId)
         {
-            return OwnerDataAccess.GetOwner(ownerId);
+            if (ownerId == null)
+                throw new ArgumentNullException(nameof(ownerId));
+
+            var result = await OwnerDataAccess.GetOwner(ownerId);
+
+            if (result == null)
+                throw new InvalidOperationException($"No such car with {nameof(ownerId)} equal {ownerId}");
+
+            return result;
         }
     }
 }
