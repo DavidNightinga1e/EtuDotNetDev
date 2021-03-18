@@ -8,7 +8,6 @@ namespace CarDatabase.DataAccess.Contracts
     public interface IOwnerDataAccess
     {
         Task<Owner> GetOwner(IOwnerId ownerId);
-        Task<Owner> UpdateOwner(OwnerUpdateModel ownerUpdateModel);
         Task<Owner> CreateOwner(OwnerUpdateModel ownerUpdateModel);
     }
 }

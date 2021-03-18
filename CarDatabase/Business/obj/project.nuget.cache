@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5NHcd/lM1QPuGSPd53ImtAHe6eB33VUK9pymdGUoSL2xtyBtYXnsK9/MHOYs4Cpg3t61Lrt8aJmmksHdoSDOEg==",
+  "dgSpecHash": "t49TYc0SZ+3D16M00ot9/1JaHhBNEasxXi1YABOdxmUlge17HK2ExF+XrQrlyzlMavH1uosGcHZakSDut3D1cQ==",
   "success": true,
   "projectFilePath": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\Business\\Business.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hans\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\hans\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\hans\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\hans\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

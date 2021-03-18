@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0Mh8enLc2Sb3gGXCnTAP0M66OXcOMccx4bgQy+vEMB5eHn29kSyykZAK702teLjHfetdxhhm16TADQd0Vbic3w==",
+  "dgSpecHash": "XNzgxE5Fggg5fY5wy7GjnD5pf+nMi0Dlrbk9GowLQs3My6nYD9Cwutr7lz6ul6EZMp7hPEoUSsJMpz6O9vCM7Q==",
   "success": true,
   "projectFilePath": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\BusinessUnitTests\\BusinessUnitTests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hans\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\hans\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\hans\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\hans\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
