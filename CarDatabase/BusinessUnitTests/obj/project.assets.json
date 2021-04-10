@@ -7023,7 +7023,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hans\\.nuget\\packages\\": {}
+    "C:\\Users\\Nightingale\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -7031,18 +7031,16 @@
       "projectUniqueName": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\BusinessUnitTests\\BusinessUnitTests.csproj",
       "projectName": "BusinessUnitTests",
       "projectPath": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\BusinessUnitTests\\BusinessUnitTests.csproj",
-      "packagesPath": "C:\\Users\\hans\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Nightingale\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\EtuDotNetDev\\CarDatabase\\BusinessUnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hans\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Nightingale\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
