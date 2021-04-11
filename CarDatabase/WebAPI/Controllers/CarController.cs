@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 namespace CarDatabase.WebAPI.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/cars")]
     public class CarController : ControllerBase
     {
         private ILogger<CarController> Logger { get; }
@@ -41,7 +41,7 @@ namespace CarDatabase.WebAPI.Controllers
         
         [HttpGet]
         [Route("{carId}")]
-        public async Task<CarDTO> GetAsync(ulong carId)
+        public async Task<CarDTO> GetAsync(int carId)
         {
             Logger.LogTrace($"{nameof(GetAsync)} call for {carId}");
             

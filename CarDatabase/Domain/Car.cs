@@ -12,6 +12,6 @@ namespace CarDatabase.Domain
         public string Color { get; set; }
         public string Mileage { get; set; }
 
-        public ulong OwnerId => Owner.Id;
+        public int OwnerId => Owner.Id;
     }
 }

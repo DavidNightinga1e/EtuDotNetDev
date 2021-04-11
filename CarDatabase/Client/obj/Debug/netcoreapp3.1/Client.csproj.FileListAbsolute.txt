@@ -1,0 +1,9 @@
+D:\Projects\EtuDotNetDev\CarDatabase\Client\bin\Debug\netcoreapp3.1\Client.deps.json
+D:\Projects\EtuDotNetDev\CarDatabase\Client\bin\Debug\netcoreapp3.1\Client.dll
+D:\Projects\EtuDotNetDev\CarDatabase\Client\bin\Debug\netcoreapp3.1\Client.pdb
+D:\Projects\EtuDotNetDev\CarDatabase\Client\obj\Debug\netcoreapp3.1\Client.csprojAssemblyReference.cache
+D:\Projects\EtuDotNetDev\CarDatabase\Client\obj\Debug\netcoreapp3.1\Client.AssemblyInfoInputs.cache
+D:\Projects\EtuDotNetDev\CarDatabase\Client\obj\Debug\netcoreapp3.1\Client.AssemblyInfo.cs
+D:\Projects\EtuDotNetDev\CarDatabase\Client\obj\Debug\netcoreapp3.1\Client.csproj.CoreCompileInputs.cache
+D:\Projects\EtuDotNetDev\CarDatabase\Client\obj\Debug\netcoreapp3.1\Client.dll
+D:\Projects\EtuDotNetDev\CarDatabase\Client\obj\Debug\netcoreapp3.1\Client.pdb

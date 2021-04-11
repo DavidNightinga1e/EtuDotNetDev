@@ -24,7 +24,7 @@ namespace CarDatabase.Business.Implementations
             var result = await OwnerDataAccess.GetOwner(ownerId);
 
             if (result == null)
-                throw new InvalidOperationException($"No such car with {nameof(ownerId)} equal {ownerId}");
+                throw new InvalidOperationException($"No such owner with {nameof(ownerId)} equal {ownerId.OwnerId}");
 
             return result;
         }

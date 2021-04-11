@@ -26,7 +26,7 @@ namespace CarDatabase.DataAccess.Implementation
             if (carId == null)
                 throw new ArgumentNullException(nameof(carId));
 
-            var entity = await Context.Cars.FirstAsync(t => t.CarId == carId.CarId);
+            var entity = await Context.Cars.FirstOrDefaultAsync(t => t.CarId == carId.CarId);
 
             return Mapper.Map<Car>(entity);
         }

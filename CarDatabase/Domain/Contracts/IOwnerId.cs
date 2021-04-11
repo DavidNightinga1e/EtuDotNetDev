@@ -2,6 +2,6 @@
 {
     public interface IOwnerId
     {
-        ulong OwnerId { get; }
+        int OwnerId { get; }
     }
 }

@@ -4,7 +4,7 @@ namespace CarDatabase.Domain.Models
 {
     public class OwnerUpdateModel : IOwnerId
     {
-        public ulong OwnerId { get; set; }
+        public int OwnerId { get; set; }
         
         public string Name { get; set; }
         public string LastName { get; set; }

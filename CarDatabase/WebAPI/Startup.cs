@@ -1,20 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using AutoMapper;
 using CarDatabase.Business.Contracts;
 using CarDatabase.Business.Implementations;
+using CarDatabase.DataAccess.Context;
 using CarDatabase.DataAccess.Contracts;
+using CarDatabase.DataAccess.Implementation;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace CarDatabase.WebAPI
 {
@@ -33,15 +28,16 @@ namespace CarDatabase.WebAPI
             services.AddControllers();
             services.AddAutoMapper(typeof(Startup));
 
-            services.Add(new ServiceDescriptor(typeof(ICreateCarService), typeof(CreateCarService),
-                ServiceLifetime.Scoped));
-            services.Add(new ServiceDescriptor(typeof(IGetCarService), typeof(GetCarService),
-                ServiceLifetime.Scoped));
-            services.Add(new ServiceDescriptor(typeof(IGetOwnerService), typeof(GetOwnerService),
-                ServiceLifetime.Scoped));
-            services.Add(new ServiceDescriptor(typeof(ICreateOwnerService), typeof(CreateOwnerService),
-                ServiceLifetime.Scoped));
+            services.AddScoped<ICreateCarService, CreateCarService>();
+            services.AddScoped<IGetCarService, GetCarService>();
+            services.AddScoped<IGetOwnerService, GetOwnerService>();
+            services.AddScoped<ICreateOwnerService, CreateOwnerService>();
             
+            services.AddTransient<ICarDataAccess, CarDataAccess>();
+            services.AddTransient<IOwnerDataAccess, OwnerDataAccess>();
+            
+            services.AddDbContext<CarDatabaseContext>(t =>
+                t.UseSqlServer(Configuration.GetConnectionString("CarDatabase")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

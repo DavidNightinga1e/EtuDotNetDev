@@ -24,7 +24,7 @@ namespace CarDatabase.Business.Implementations
             var result = await CarDataAccess.GetCar(carId);
             
             if (result == null)
-                throw new InvalidOperationException($"No such car with {nameof(carId)} equal {carId}");
+                throw new InvalidOperationException($"No such car with {nameof(carId)} equal {carId.CarId}");
             
             return result;
         }

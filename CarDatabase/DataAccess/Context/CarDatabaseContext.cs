@@ -7,7 +7,15 @@ namespace CarDatabase.DataAccess.Context
     public class CarDatabaseContext : DbContext
     {
         public virtual DbSet<Car> Cars { get; set; }
-        public virtual DbSet<Owner> Owners { get; set; }
+        public virtual DbSet<CarOwner> Owners { get; set; }
+
+        public CarDatabaseContext(DbContextOptions<CarDatabaseContext> options) : base(options)
+        {
+        }
+        
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -18,16 +26,16 @@ namespace CarDatabase.DataAccess.Context
                 builder.Property(t => t.Brand).IsRequired();
                 
                 builder
-                    .HasOne(t => t.Owner)
+                    .HasOne(t => t.CarOwner)
                     .WithMany(e => e.Cars);
             });
 
-            modelBuilder.Entity<Owner>(builder =>
+            modelBuilder.Entity<CarOwner>(builder =>
             {
                 builder.Property(t => t.Id).UseIdentityColumn().Metadata
                     .SetBeforeSaveBehavior(PropertySaveBehavior.Ignore);
 
-                builder.Property(t => t.Name).IsRequired();
+                builder.Property(t => t.FirstName).IsRequired();
                 builder.Property(t => t.LastName).IsRequired();
             });
         }

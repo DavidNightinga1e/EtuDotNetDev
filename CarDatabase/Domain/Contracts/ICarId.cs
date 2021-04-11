@@ -2,6 +2,6 @@
 {
     public interface ICarId
     {
-        ulong CarId { get; }
+        int CarId { get; }
     }
 }

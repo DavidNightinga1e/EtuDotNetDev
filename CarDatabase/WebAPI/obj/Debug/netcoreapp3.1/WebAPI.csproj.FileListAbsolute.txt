@@ -58,3 +58,5 @@ D:\Projects\EtuDotNetDev\CarDatabase\WebAPI\obj\Debug\netcoreapp3.1\staticwebass
 D:\Projects\EtuDotNetDev\CarDatabase\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 D:\Projects\EtuDotNetDev\CarDatabase\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 D:\Projects\EtuDotNetDev\CarDatabase\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+D:\Projects\EtuDotNetDev\CarDatabase\WebAPI\bin\Debug\netcoreapp3.1\Client.dll
+D:\Projects\EtuDotNetDev\CarDatabase\WebAPI\bin\Debug\netcoreapp3.1\Client.pdb

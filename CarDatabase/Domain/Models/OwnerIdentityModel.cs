@@ -4,9 +4,9 @@ namespace CarDatabase.Domain.Models
 {
     public class OwnerIdentityModel : IOwnerId
     {
-        public ulong OwnerId { get; }
+        public int OwnerId { get; }
 
-        public OwnerIdentityModel(ulong id)
+        public OwnerIdentityModel(int id)
         {
             OwnerId = id;
         }

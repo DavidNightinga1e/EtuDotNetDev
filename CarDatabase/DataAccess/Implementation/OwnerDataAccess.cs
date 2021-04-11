@@ -26,7 +26,7 @@ namespace CarDatabase.DataAccess.Implementation
             if (ownerId == null)
                 throw new ArgumentNullException(nameof(ownerId));
 
-            var entity = await Context.Owners.FirstAsync(t => t.Id == ownerId.OwnerId);
+            var entity = await Context.Owners.FirstOrDefaultAsync(t => t.Id == ownerId.OwnerId);
 
             return Mapper.Map<Owner>(entity);
         }
@@ -36,7 +36,7 @@ namespace CarDatabase.DataAccess.Implementation
             if (ownerUpdateModel == null)
                 throw new ArgumentNullException(nameof(ownerUpdateModel));
 
-            var entityEntry = await Context.Owners.AddAsync(Mapper.Map<Entities.Owner>(ownerUpdateModel));
+            var entityEntry = await Context.Owners.AddAsync(Mapper.Map<Entities.CarOwner>(ownerUpdateModel));
 
             await Context.SaveChangesAsync();
 
